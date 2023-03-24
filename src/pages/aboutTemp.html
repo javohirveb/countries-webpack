@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>
+      <%= htmlWebpackPlugin.options.title %>
+   </title>
+</head>
+
+<body>
+   <!-- HEADER -->
+   <header class="header">
+      <div class="container">
+         <a class="header__logo" href="./index.html">Where in the world?</a>
+         <button class="header__dark-mode">
+            <div>
+               <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                     d="M13.55 13.81c-3.88 0-7.03-2.88-7.03-6.44 0-1.34.45-2.59 1.21-3.62C4.7 4.7 2.5 7.33 2.5 10.44c0 3.9 3.45 7.06 7.7 7.06 3.4 0 6.27-2 7.3-4.8a7.46 7.46 0 0 1-3.95 1.12Z"
+                     fill="#fff" stroke="#111517" stroke-width="1.25" />
+               </svg>
+               <span>Dark Mode</span>
+            </div>
+         </button>
+      </div>
+   </header>
+   <!-- HEADER END -->
+
+   <!-- MAIN -->
+   <main class="main">
+      <div class="container">
+         <div class="back-button-wrapper">
+            <a class="back-button" href="./index.html">
+               <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                     d="M6.46 4.1 7.64 5.3 3.75 9.18H18.6v1.64H3.75l3.9 3.9-1.19 1.17L.57 10l5.9-5.9Z" fill="#111517" />
+               </svg>
+               <span>Back</span>
+            </a>
+         </div>
+
+         <div class="country-info"></div>
+      </div>
+   </main>
+   <!-- MAIN END -->
+
+   <!-- FOOTER -->
+   <footer class="footer">
+      <h3>by <a href="https://github.com/javohirveb"><i class="baseline-https"></i></a></h3>
+   </footer>
+   <!-- FOOTER END -->
+
+   <div class="loader hidden">
+      <div class="lds-ellipsis">
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+      </div>
+   </div>
+</body>
+
+</html>
